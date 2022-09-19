@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity3">
+
+    <TextView
+        android:id="@+id/text_view3"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textColor="#ff0000"
+        android:text=" welcome to the game 'cat a dog',at here,you must learn all kinds of cats and dogs, and identify the correct one! fighting,lady and gentleman! "
+
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="500px"
+        android:id="@+id/image_view_3"
+        android:src="@drawable/cat_test"
+        />
+
+    <Button
+        android:id="@+id/tbutton1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:backgroundTint="#ffffff"
+        android:textSize="15dp"
+        android:gravity="center"
+        android:text="if you are ready,please click start!"
+        android:textColor="#ff00ee" />
+    <Button
+        android:id="@+id/tbutton2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#ffffff"
+        android:textColor="#0000ff"
+        android:gravity="center"
+        android:textSize="50dp"
+        android:text="start" />
+
+    <TextView
+        android:id="@+id/text_view4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center|bottom"
+        android:textSize="25sp"
+        android:textColor="#ff0000"
+        android:text=" Created by SCU-jackydong "
+
+        />
+</LinearLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity2">
+
+    <TextView
+        android:id="@+id/text_view2"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:textColor="#00ff00"
+        android:text="第二关，狗的识别"
+
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="900px"
+        android:id="@+id/image_view_2"
+        android:gravity="center"
+        android:src="@drawable/keji"
+        />
+    <Button
+        android:id="@+id/sbutton1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#ffffff"
+        android:gravity="center"
+        android:text="开始答题"
+        android:textColor="#ff00ee" />
+    <Button
+        android:id="@+id/sbutton2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#ffffff"
+        android:textColor="#0000ff"
+        android:gravity="center"
+        android:text="5东币直接进入下一关" />
+    <Button
+        android:id="@+id/sbutton5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#ffffff"
+        android:gravity="center"
+        android:text="充值东币：1元=1东币"
+        android:textColor="#ff0000" />
+</LinearLayout>

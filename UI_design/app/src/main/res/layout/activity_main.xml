@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    >
+
+    <TextView
+        android:id="@+id/text_view"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:textColor="#00ff00"
+        android:text="第一关，猫的识别"
+
+       />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="1000px"
+        android:id="@+id/image_view_1"
+        android:gravity="center"
+        android:src="@drawable/bosimao"
+
+        />
+
+
+    <Button
+        android:id="@+id/fbutton1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#ffffff"
+        android:gravity="center"
+        android:text="开始作答"
+        android:textColor="#ff00ee" />
+
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#ffffff"
+        android:gravity="center"
+        android:text="5东币直接进入下一关"
+        android:textColor="#0000ff" />
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#ffffff"
+        android:gravity="center"
+        android:text="充值东币：1元=1东币"
+        android:textColor="#ff0000" />
+
+</LinearLayout>
