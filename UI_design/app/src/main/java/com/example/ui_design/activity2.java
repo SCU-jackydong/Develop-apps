@@ -49,6 +49,7 @@ private ImageView imageView;
         imageView =(ImageView)findViewById(R.id.image_view_2);
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
+            //监听输入的答案是否是正确答案
             public void onClick(View v)
             {
 
