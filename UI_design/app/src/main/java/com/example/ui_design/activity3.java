@@ -12,11 +12,13 @@ import android.widget.ImageView;
 public class activity3 extends baseactivity {
 private ImageView imageView;
     @Override
+    // create the page menu
     public boolean onCreateOptionsMenu(Menu menu){
         getMenuInflater().inflate(R.menu.main,menu);
         return true;
     }
     @Override
+    // first create
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.layout_activity3);
